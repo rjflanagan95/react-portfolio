@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Clicky Game",
+        "subtitle": "React.js",
+        "text": "Simple React memory game.",
+        "githubLink": "https://github.com/rjflanagan95/clicky-game",
+        "hostLink": "https://rjflanagan95.github.io/clicky-game/",
+        "image": "../assets/clicky-game.png"
+    },
+    {
+        "title": "NY Times Politics Scraper",
+        "subtitle": "MongoDB, Cheerio.js, Node.js",
+        "text": "An app that scrapes articles from the New York Times Politics section.",
+        "githubLink": "https://github.com/rjflanagan95/News-Scraper",
+        "hostLink": "https://blooming-spire-68198.herokuapp.com/",
+        "image": "../assets/nyt-scraper.png"
+    }
+]
