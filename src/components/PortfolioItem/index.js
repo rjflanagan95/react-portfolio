@@ -17,7 +17,7 @@ class PortfolioItem extends Component {
   render() {
     return (
       <Card>
-        <CardImg width="50px" src={this.state.image}/>
+        <CardImg width="30%" src={this.state.image}/>
         <CardBody>
           <CardTitle><a href={this.state.hostLink}>{this.state.title}</a></CardTitle>
           <CardSubtitle>{this.state.subtitle}</CardSubtitle>
