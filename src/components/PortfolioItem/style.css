@@ -1,0 +1,27 @@
+.portfolioCard {
+    margin: 10px 0 10px 0;
+}
+
+.cardImage {
+    padding: 20px 10px 20px 10px;
+}
+
+.cardBody {
+    margin: 20px;
+}
+
+.cardTitle {
+
+}
+
+.cardSubTitle {
+
+}
+
+.cardText {
+    
+}
+
+.cardLinks {
+    text-decoration: none;
+}

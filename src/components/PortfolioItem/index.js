@@ -16,20 +16,20 @@ class PortfolioItem extends Component {
   }
   render() {
     const hostLink = this.state.hostLink;
-    let cardTitle;
+    let cardLinks;
     if (hostLink === "") {
-      cardTitle = <p>{this.state.title}</p>
+      cardLinks = <p><a href={this.state.githubLink}>Code base</a></p>
     } else {
-      cardTitle = <a href={this.state.hostLink}>{this.state.title}</a>
+      cardLinks = <p><a href={this.state.githubLink}>Code base</a> || <a href={this.state.hostLink}>Deployed site</a></p>
     }
     return (
-      <Card>
-        <CardImg src={this.state.image}/>
-        <CardBody>
-          <CardTitle>{cardTitle}</CardTitle>
-          <CardSubtitle>{this.state.subtitle}</CardSubtitle>
-          <CardText>{this.state.text}</CardText>
-          <a href={this.state.githubLink}>Code base</a>
+      <Card className="portfolioCard">
+        <CardImg className="cardImage" src={this.state.image}/>
+        <CardBody className="cardBody">
+          <CardTitle className="cardTitle">{this.state.title}</CardTitle>
+          <CardSubtitle className="cardSubTitle">{this.state.subtitle}</CardSubtitle>
+          <CardText className="cardText">{this.state.text}</CardText>
+          <div className="cardLinks">{cardLinks}</div>
         </CardBody>
       </Card>
     );

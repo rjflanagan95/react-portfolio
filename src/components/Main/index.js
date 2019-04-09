@@ -14,15 +14,11 @@ class Main extends Component {
         <Row>
           <Col xs="3">bio stuff</Col>
           <Col>
-            <div>
-              {this.state.projects.map((val, index) => 
-                <Row>
-                  <Col>
-                    <PortfolioItem key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
-                  </Col>
-                  
-                </Row>)}
-            </div>
+            {this.state.projects.map((val, index) => 
+              <Row>
+                <PortfolioItem key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
+              </Row>
+            )}
           </Col>
         </Row>
       </Container>
