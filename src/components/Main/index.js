@@ -9,7 +9,9 @@ class Main extends Component {
     projects,
     bioImage: "../assets/cardimage.jpg",
     personalGithub: "https://github.com/rjflanagan95",
+    githubImg: "../assets/githubicon.png",
     linkedIn: "https://www.linkedin.com/in/robertjflanagan",
+    linkedinImg: "../assets/linkedinicon.png",
     resume: "https://drive.google.com/file/d/1QxDjM5YNukcydPeyycHjcOuUW98j2Lcm/view?usp=sharing"
   }
 
@@ -27,9 +29,9 @@ class Main extends Component {
               </CardBody>
               <div className="bioLinks">
                 <p>
-                  <a href={this.state.personalGithub}>GitHub</a>
-                  <a href={this.state.linkedIn}>LinkedIn</a>
-                  <a href={this.state.resume}>Resume</a>
+                  <p><a href={this.state.personalGithub}>GitHub</a><img className="socialIcon" src={this.state.githubImg} alt="GitHub icon"/></p>
+                  <p><a href={this.state.linkedIn}>LinkedIn</a><img className="socialIcon" src={this.state.linkedinImg} alt="LinkedIn icon"/></p>
+                  <p><a href={this.state.resume}>Resume</a></p>
                 </p>
                 {/* <a href="https://github.com/rjflanagan95">GitHub <img src="assets/githubicon.png" alt="GitHub icon" style="height: 17px;"/>
                 <a href="https://www.linkedin.com/in/robertjflanagan">LinkedIn <img src="assets/linkedinicon.png" alt="LinkedIn icon" style="height:17px;"/>
