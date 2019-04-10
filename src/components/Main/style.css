@@ -6,3 +6,35 @@
 .portfolioItem {
 
 }
+
+.bioCard {
+    margin: 10px 0 10px 0;
+    /* width: 15rem; */
+}
+
+.bioImage {
+    padding: 20px 10px 5px 10px;
+}
+
+.bioBody {
+
+}
+
+.bioTitle {
+    font-weight: bold;
+    font-size: large;
+}
+
+.bioContent {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.bioText {
+    
+}
+
+.bioLinks {
+    
+}

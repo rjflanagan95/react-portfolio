@@ -1,13 +1,13 @@
-.portfolioCard {
+.projectCard {
     margin: 10px 0 10px 0;
     width: 20rem;
 }
 
-.cardImage {
+.projectImage {
     padding: 20px 10px 5px 10px;
 }
 
-.cardBody {
+.projectBody {
 
 }
 
@@ -22,7 +22,7 @@
     font-size: smaller;
 }
 
-.projectDesc {
+.projectText {
     
 }
 

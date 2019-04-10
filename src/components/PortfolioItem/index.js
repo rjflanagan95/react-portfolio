@@ -23,12 +23,12 @@ class PortfolioItem extends Component {
       cardLinks = <p><a href={this.state.githubLink}>Code base</a> || <a href={this.state.hostLink}>Deployed site</a></p>
     }
     return (
-      <Card className="portfolioCard">
-        <CardImg className="cardImage" src={this.state.image}/>
-        <CardBody className="cardBody">
+      <Card className="projectCard">
+        <CardImg className="projectImage" src={this.state.image}/>
+        <CardBody className="projectBody">
           <CardTitle className="projectTitle">{this.state.title}</CardTitle>
           <CardSubtitle className="projectTech">{this.state.subtitle}</CardSubtitle>
-          <CardText className="projectDesc">{this.state.text}</CardText>
+          <CardText className="projectText">{this.state.text}</CardText>
           <div className="projectLinks">{cardLinks}</div>
         </CardBody>
       </Card>
