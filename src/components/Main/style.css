@@ -1,14 +1,16 @@
 .portfolioArea {
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(270px, auto));
 }
 
 .portfolioItem {
-
+    float: left;
+    margin: 0 15px 0 15px;
 }
 
 .bioCard {
-    margin: 10px 0 10px 0;
+    margin: 10px 10px 10px 10px;
     width: 15rem;
 }
 
