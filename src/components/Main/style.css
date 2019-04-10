@@ -17,7 +17,6 @@
 }
 
 .bioBody {
-
 }
 
 .bioTitle {
@@ -32,11 +31,24 @@
 }
 
 .bioText {
-    
+    padding: 10px 0 0 0;
 }
 
-.bioLinks {
-    
+.bio {
+    font-size: smaller;
+}
+
+.skills {
+    font-size: smaller;
+}
+
+.bioLinksArea {
+}
+
+.socialLink {
+    color: black;
+    font-weight: lighter;
+    font-size: smaller;
 }
 
 .socialIcon {

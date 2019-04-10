@@ -16,11 +16,11 @@ class PortfolioItem extends Component {
   }
   render() {
     const hostLink = this.state.hostLink;
-    let cardLinks;
+    let projectLinks;
     if (hostLink === "") {
-      cardLinks = <p><a href={this.state.githubLink}>Code base</a></p>
+      projectLinks = <p><a className="codeLink" href={this.state.githubLink}>Code base</a></p>
     } else {
-      cardLinks = <p><a href={this.state.githubLink}>Code base</a> || <a href={this.state.hostLink}>Deployed site</a></p>
+      projectLinks = <p><a className="codeLink" href={this.state.githubLink}>Code base</a> || <a className="codeLink" href={this.state.hostLink}>Deployed site</a></p>
     }
     return (
       <Card className="projectCard">
@@ -29,7 +29,7 @@ class PortfolioItem extends Component {
           <CardTitle className="projectTitle">{this.state.title}</CardTitle>
           <CardSubtitle className="projectTech">{this.state.subtitle}</CardSubtitle>
           <CardText className="projectText">{this.state.text}</CardText>
-          <div className="projectLinks">{cardLinks}</div>
+          <div className="projectLinksArea">{projectLinks}</div>
         </CardBody>
       </Card>
     );
