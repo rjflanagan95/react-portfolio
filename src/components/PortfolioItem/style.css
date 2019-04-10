@@ -1,27 +1,31 @@
 .portfolioCard {
     margin: 10px 0 10px 0;
+    width: 20rem;
 }
 
 .cardImage {
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 5px 10px;
 }
 
 .cardBody {
-    margin: 20px;
-}
-
-.cardTitle {
 
 }
 
-.cardSubTitle {
-
+.projectTitle {
+    font-weight: bold;
+    font-size: large;
 }
 
-.cardText {
+.projectTech {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.projectDesc {
     
 }
 
-.cardLinks {
-    text-decoration: none;
+.projectLinks {
+    
 }

@@ -26,10 +26,10 @@ class PortfolioItem extends Component {
       <Card className="portfolioCard">
         <CardImg className="cardImage" src={this.state.image}/>
         <CardBody className="cardBody">
-          <CardTitle className="cardTitle">{this.state.title}</CardTitle>
-          <CardSubtitle className="cardSubTitle">{this.state.subtitle}</CardSubtitle>
-          <CardText className="cardText">{this.state.text}</CardText>
-          <div className="cardLinks">{cardLinks}</div>
+          <CardTitle className="projectTitle">{this.state.title}</CardTitle>
+          <CardSubtitle className="projectTech">{this.state.subtitle}</CardSubtitle>
+          <CardText className="projectDesc">{this.state.text}</CardText>
+          <div className="projectLinks">{cardLinks}</div>
         </CardBody>
       </Card>
     );

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import PortfolioItem from "../PortfolioItem/index.js";
 import projects from "../../projects.json";
+import "./style.css";
 
 class Main extends Component {
   state = {
@@ -13,11 +14,9 @@ class Main extends Component {
       <Container>
         <Row>
           <Col xs="3">bio stuff</Col>
-          <Col>
+          <Col className="portfolioArea">
             {this.state.projects.map((val, index) => 
-              <Row>
-                <PortfolioItem key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
-              </Row>
+              <PortfolioItem className="portfolioItem" key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
             )}
           </Col>
         </Row>
