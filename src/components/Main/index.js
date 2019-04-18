@@ -1,21 +1,26 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import PortfolioItem from "../PortfolioItem/index.js";
-import projects from "../../projects.json";
+import projects from "./projects.json";
 import "./style.css";
 
 class Main extends Component {
   state = {
     projects,
-    bioImage: "../assets/cardimage.jpg",
+    bioImage: "https://lh3.googleusercontent.com/d2IIOewuOV50jU_1h0Yfx728bnQQ1AEm3hCx0ouO0BNXV2-9lE3UKOAkHP8Y6bY1crl8SMbZ6yGmyJB-CgJEsxb4SAOu8mr-xhtjKS1Q1L8T9XTiAKQXfefm0n83cQpm925h3Mze6EkjI6_w0Yka53N0P0QtC7sXCDCFJC6RPELi9Q2uD6yBYtuwyuGDp5pFLkwyZ1rSnwJoF3eD4ep6cGCX88edBJRDA1oPqLkIAeOeaoYr__29mPQo5p4AQJ9iA8mjI1WE88jsuVBV9PG7Lu_5Eik0Y5ZDY7MjJg3_xxteh7XEv9AUvi7XOrVZLIhUymtmRksSqGNSrrFC5LNhLbB7pO3CPkFveVRIuC0yXMnjBPHXlzv5PW3uDbsZhXRPPMRyRmhDIsDa17fVraSaflx9nX_xZHGs0ZGO9wz-c7ogdDceYMLXq87XuAJHd3cEJ0oWOya1Sr4cUUmn1oDir4Hz5GsKbnIrrcGJf5L_51b9Sq-FZZJlQae4NMAG4qjqJMuIhLfes6Lwe1-xG-kKIjVcwwL5RnB8__bzAv59t-ebNXXXtatDNd_poIn_NVJqAcBilR_MaGctlLxKW9p1Fn59EnPPs8h-LZRLdjsOcvAxtNtcr2J8K9CV3wglEFKOkCgglpf0n3dsKO4V31hsTRGSFF9T3xc=s960-no",
     personalGithub: "https://github.com/rjflanagan95",
-    githubImg: "../assets/githubicon.png",
+    githubImg: "https://lh3.googleusercontent.com/0d9dhEy0Nd7FkugNNdXXf0OScK2tj_ZFNKvGJmO8LmvuXE8Q3UB5nuAwyiosj87lF4bAezl2iR3f1raiWEbBlgowOyYIh_05-fD72SIZovblHsp48gGepf8oEnaCA6p_IkPjcv2Vl6Ao5Gw_NuyDY0YQZecDU-N-eKfjJMp4EGYFPxMhi-wPXuFeTHfU0I3CytifrgbsHIJmkrG48Eh6jpmpTrI33OkvKB_skKCHZdPyJgIAJIhK047GDAK5cON62iQPK1oddnIj2wV-8pEpggAcPMvc27dp58C1yoMHfmZWSegsz_Edi7ehaMTt4gz15AwHx48V_EZSVLcx4NSjKwerCar97Ndc2mo5qHQEZ4KP4uHxqFX-ad8FKODk_vVbwdqoUFCddW3Tg8tWaeDYOgeYpnKHp9JweqwW7DYsKzzQNr-EaThh-MgKSHUfOeKwIEPvJOwdqNS9WJgcji5CTTQgOOWwG83yuq7_jiHYTInXVHS4Gl6gXIrwyQfQrFeUiQ34Nx8xr8bD-qeAVuqOfFvxWS-GSEC0jQwqZufzDKiKqbB3AVsaib_1Lbli2CexI0wZ3MNuHfp4LvBP4s3dQp73qt3CYaIvYT6_QJJgXlqXXY0-MQz-S7o1fJKeJJSJjkWe9xgx2mE_PDdMprNVakXzPP5SX6k=s560-no",
     linkedIn: "https://www.linkedin.com/in/robertjflanagan",
-    linkedinImg: "../assets/linkedinicon.png",
+    linkedinImg: "https://lh3.googleusercontent.com/XOe4_rgK4hpaZSYMBz0QziRJivZoYmeitL4cTHdhPhqPgJPgG16XohbpvZ6wl-pUrWPRVagmpDqR_Bh2wOoD8gx5aESD0LbuNzgXBP9uiJG3gs-UZWKUf1UC5mKkSxLdQcyCCvWwGwun3eNajC1bV4sKMueYPydeYMvz0J7vmatCCI5Kl32jEQ_CA5gdIEWeSwgYdqNDLfn_9fYUy8GjFgtL9qni2jF3AFsUvHZkNH0QkzqaB7fGx1KTfn9IQSr2ki_2XwM-Qx07Mm_fBOwQkhoCxQA_bMzuZxwCquZCALKcNIdUwTrFt8rTHUGKvZMqbMwUJ3Qx-R4C65rXUGxVqAJj1Avz2CDUq76io15QQzbi-ssTsXhvt4SlxHeGkGC1fpFJGLY2pbV3We9yMsyfpiuak216tU-ZNe49IOP3nT34AThGOvlLWt4n7sv5SpHm7L7taVUW3zKH9r5qk2PDquWDnkIa-HdMt_VWgwkyqZN_TNjCc5tqmX3O6GX7rYJi3XgpRarVAfCPLG1p2VuSceU6Mv8f9Lev3Bp-H1BQIA4kNQvyqXCc5MdgTYQr9yxv2mbPIf5ppxZjZwfPUtN08qGBWksOsv2lvA0978ad3R6LlDm_B4SfZPhj9IF96vIPxgLLmdWzg5YpB8L3Bnrto09hJ8G2QaA=w1017-h900-no",
     resume: "https://drive.google.com/file/d/1QxDjM5YNukcydPeyycHjcOuUW98j2Lcm/view?usp=sharing"
   }
 
+
   render() {
+    let projectCards = this.state.projects.map((val, index) =>
+      <PortfolioItem className="portfolioItem" key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
+    );
+
     return (
       <Container>
         <Row>
@@ -42,9 +47,7 @@ class Main extends Component {
             </Card>
           </Col>
           <Col className="portfolioArea">
-            {this.state.projects.map((val, index) => 
-              <PortfolioItem className="portfolioItem" key={index} title={val.title} subtitle={val.subtitle} text={val.text} githubLink={val.githubLink} hostLink={val.hostLink} image={val.image}/>
-            )}
+            {projectCards}
           </Col>
         </Row>
       </Container>
