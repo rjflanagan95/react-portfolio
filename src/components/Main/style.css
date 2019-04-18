@@ -12,13 +12,17 @@
 .bioCard {
     margin: 10px 10px 10px 10px;
     width: 15rem;
+    background-color: #CED2DD;
+    /* box-shadow: 0 4px 10px 0 #242830, 0 4px 10px 0 #242830; */
 }
 
 .bioImage {
     padding: 20px 10px 5px 10px;
+    background-color: #CED2DD;
 }
 
 .bioBody {
+    background-color: #CED2DD;
 }
 
 .bioTitle {
@@ -51,6 +55,12 @@
     color: black;
     font-weight: lighter;
     font-size: smaller;
+}
+
+.socialLink:hover {
+    color: #203C82;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .socialIcon {

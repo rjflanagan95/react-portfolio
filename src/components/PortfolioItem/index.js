@@ -24,7 +24,9 @@ class PortfolioItem extends Component {
     }
     return (
       <Card className="projectCard">
-        <CardImg className="projectImage" src={this.state.image}/>
+        <div className="projectImageWrapper">
+          <CardImg className="projectImage" src={this.state.image}/>
+        </div>
         <CardBody className="projectBody">
           <CardTitle className="projectTitle">{this.state.title}</CardTitle>
           <CardSubtitle className="projectTech">{this.state.subtitle}</CardSubtitle>
