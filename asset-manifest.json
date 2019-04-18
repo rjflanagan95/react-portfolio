@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-portfolio/static/css/main.68dbe420.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.9224c037.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.9224c037.chunk.js.map",
-  "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
-  "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-  "static/css/2.3631f01b.chunk.css": "/react-portfolio/static/css/2.3631f01b.chunk.css",
-  "static/js/2.86ce5f1b.chunk.js": "/react-portfolio/static/js/2.86ce5f1b.chunk.js",
-  "static/js/2.86ce5f1b.chunk.js.map": "/react-portfolio/static/js/2.86ce5f1b.chunk.js.map",
-  "index.html": "/react-portfolio/index.html",
-  "precache-manifest.9f3e2958af9044262deb788c70d19dc3.js": "/react-portfolio/precache-manifest.9f3e2958af9044262deb788c70d19dc3.js",
-  "service-worker.js": "/react-portfolio/service-worker.js",
-  "static/css/2.3631f01b.chunk.css.map": "/react-portfolio/static/css/2.3631f01b.chunk.css.map",
-  "static/css/main.68dbe420.chunk.css.map": "/react-portfolio/static/css/main.68dbe420.chunk.css.map"
+  "main.css": "/portfolio/static/css/main.68dbe420.chunk.css",
+  "main.js": "/portfolio/static/js/main.55427c44.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.55427c44.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+  "static/css/2.3631f01b.chunk.css": "/portfolio/static/css/2.3631f01b.chunk.css",
+  "static/js/2.86ce5f1b.chunk.js": "/portfolio/static/js/2.86ce5f1b.chunk.js",
+  "static/js/2.86ce5f1b.chunk.js.map": "/portfolio/static/js/2.86ce5f1b.chunk.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.62105ad137e718f6562a8f70f25a071e.js": "/portfolio/precache-manifest.62105ad137e718f6562a8f70f25a071e.js",
+  "service-worker.js": "/portfolio/service-worker.js",
+  "static/css/2.3631f01b.chunk.css.map": "/portfolio/static/css/2.3631f01b.chunk.css.map",
+  "static/css/main.68dbe420.chunk.css.map": "/portfolio/static/css/main.68dbe420.chunk.css.map"
 }
