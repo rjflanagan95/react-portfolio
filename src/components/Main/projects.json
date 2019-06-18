@@ -1,5 +1,12 @@
 [
     {
+        "title": "Task App",
+        "subtitle": "Node.js, React.js, MongoDB, Express.js",
+        "text": "A single-page productivity hub; keeps track of tasks, reminders, and goals.",
+        "githubLink": "https://github.com/rjflanagan95/task-extension",
+        "hostLink": "https://nameless-sea-68586.herokuapp.com/login",
+        "image": "https://lh3.googleusercontent.com/3sk8RasuE3721xkBgiNN7KCU7Eg8E0tsAX0phzD_9pmmIs_m1bJ7I5KWYPIEOE-Cg8b8SSfTsGEBWPkCS4eLuA1ZjYVj4U0tUw3pTqo0QGiKOv5x5FsL20hdljTLJBiIBqZ1LXT-JTnziFCCms4iIO--P1j4RHabsNS8QVrhFT9TjaeDRkHOSO_5frcmDl-2XJrmlbGAUbiYyv5RDbqak159GCEzVukfBO-pQ2MphCqQSB4BzuPBev9Utn1sEPSjrS4qX9IydI-33Ja86VhM8vwrTD7EfKJOTR3Xi6crYWXVUgXz-CRdpFLEvbxIDJKT1Cexjz4SP9dWhzXkWs5Ik4453Hu1mqdm8X9AAawGhXw3fupEUnkB5kR1gMqEWEYAX7tj5uuibYTWR4udPrVB_l9QUjRyIqlvIMUCQ0ifm2G9p5IgMI_oLMWT0-3lBen6NyZasS2jyfWa3lk0AJ4tfQYrCEX9vckDUgPowiNAVjA0QzNEYiA1yc-KJsHseqfWVG-twBgBESDFv3wu8ilh7Hu6tDBahgw2e0MEKwmiH27Kyht4cA1BpNW1DBHZznRQisbFe3WYWCe0s4X3hpwIMZ_MDXyUExxOl7DUAs94430SPCZhMqp2Jyu2dPZ3aZ4Jmq05ve90jku_A8oktNmsL_MgNu-CTvM=w1832-h1168-no"
+    },{
         "title": "Encontro",
         "subtitle": "Node.js, React.js, MySQL/Sequelize, MongoDB, Express.js",
         "text": "An interactive, agenda-focused meeting app which allows users to join meetings, chat, take notes, raise silent concerns, etc.",
