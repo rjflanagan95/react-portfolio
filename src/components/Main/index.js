@@ -12,7 +12,7 @@ class Main extends Component {
     githubImg: "http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png",
     linkedIn: "https://www.linkedin.com/in/robertjflanagan",
     linkedinImg: "https://lh3.googleusercontent.com/XOe4_rgK4hpaZSYMBz0QziRJivZoYmeitL4cTHdhPhqPgJPgG16XohbpvZ6wl-pUrWPRVagmpDqR_Bh2wOoD8gx5aESD0LbuNzgXBP9uiJG3gs-UZWKUf1UC5mKkSxLdQcyCCvWwGwun3eNajC1bV4sKMueYPydeYMvz0J7vmatCCI5Kl32jEQ_CA5gdIEWeSwgYdqNDLfn_9fYUy8GjFgtL9qni2jF3AFsUvHZkNH0QkzqaB7fGx1KTfn9IQSr2ki_2XwM-Qx07Mm_fBOwQkhoCxQA_bMzuZxwCquZCALKcNIdUwTrFt8rTHUGKvZMqbMwUJ3Qx-R4C65rXUGxVqAJj1Avz2CDUq76io15QQzbi-ssTsXhvt4SlxHeGkGC1fpFJGLY2pbV3We9yMsyfpiuak216tU-ZNe49IOP3nT34AThGOvlLWt4n7sv5SpHm7L7taVUW3zKH9r5qk2PDquWDnkIa-HdMt_VWgwkyqZN_TNjCc5tqmX3O6GX7rYJi3XgpRarVAfCPLG1p2VuSceU6Mv8f9Lev3Bp-H1BQIA4kNQvyqXCc5MdgTYQr9yxv2mbPIf5ppxZjZwfPUtN08qGBWksOsv2lvA0978ad3R6LlDm_B4SfZPhj9IF96vIPxgLLmdWzg5YpB8L3Bnrto09hJ8G2QaA=w1017-h900-no",
-    resume: "https://drive.google.com/file/d/1QxDjM5YNukcydPeyycHjcOuUW98j2Lcm/view?usp=sharing"
+    resume: "https://drive.google.com/file/d/1m0C6b7NL_q7IlBT9NTQMrBDKCrjIpTGU/view?usp=sharing"
   }
 
 
