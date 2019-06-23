@@ -2,10 +2,10 @@
     {
         "title": "Task App",
         "subtitle": "Node.js, React.js, MongoDB, Express.js",
-        "text": "A single-page productivity hub; keeps track of tasks, reminders, and goals.",
+        "text": "A single-page productivity hub; features tasks, reminders, lists, a Pomodoro timer, and a clock/weather panel.",
         "githubLink": "https://github.com/rjflanagan95/task-extension",
         "hostLink": "https://nameless-sea-68586.herokuapp.com/login",
-        "image": "https://lh3.googleusercontent.com/Idnb25gw9VeTVC9iKcqKHYYKkj_NBYDFbtrs-fVMWbvdnbbk6zqo6UkbBNQRZ1gsf3X2SVXFiyhnMBtAxpQJKwzPs1CXp7rjLvw5zv3dcRlPGUIEkW9QnHMAEe0Mjj-wCrrUe4iYUVQ1NeBmDwBlKfM_kDHDHM9lsb2LM-dOBIv6Sybw-GWrb3xDGv53vRpA_NdL_9qpKw25TmPxfuTi-tVgY06SydrCJFy-GAS55d6g6pf75hy5lkZHUTtexaOfVUYneIT2xguLRj7jK_J75kd4gW7VELqKrIzoL2FkoemSVEAPSeQRN1CRTFavADHah9pCMMHkljfGL8gGnF8RfkGKHw75B8CrxGa2mkq0YXed4QSLX7QcEsTVN-RId9d-YsLCID4riqhGKfY02VJ__HyMsGCT6JT0eAglPSnbv5qyWNm1iJdkmo_jvqa3rbc4T7Blu1yJMFNtJVHbiya8xb0X2eec7aQoo-bbU90nZ-GmRlpa0yE48OqlOfZCo7xlP_IjENVrBLY5lv0pC7jRcKZrdaAFaXwzRIo7tE-aXgvzL9U1eH83b8bgMXKffGKH8TxtRV1d0dRffnM4WX4K_nA8ZNOcsVzxcb38GvpHwyeY0X3P6jNQMn2ErFOUr5U1P6O-21b8YyInU_uR53xzf6GfmAT8WHM=w1345-h766-no"
+        "image": "https://lh3.googleusercontent.com/xS4az0PuW01DXgZCNDGD-MLK02nnURenvnVMoGWfPyaz1wSr9O9sg2V2B1580ye4Ly9Zv88gTgP-0yjUbsM2hvKieqZB7Ld4GXt4WPIkbgrMM_y10QScrhP08136Uuu1wM6qd4zuCWgT07VYVg_5ZyvAIN41hp5i71jKZTj5XFW0iYfuPxj9P_GNDwb8rhyi7lgt0mVITKkJ9zk4cpHQWxIJBsbBYEysovJ8oRUgmGgVUJx2RKMrWIHd_EtQYJVpABT8wHMQWqDWMoEoKxKlPXrVXUDBWcu6ivx63sAcYLPj92tYBJMaHym6NAdWM4b_HLNEZMErLHU5a6dstQONHhLtpEpZYzl2w0cxunqrA9sN0J2Nq2uepZPEWO58ICfyYHTNxZOadmOUpfez6duGkRTjZWjsdGD6ckGJJNWB2SKDBccbDCnDbWR3488fWSzKHV-AW4nEHBUj3mkGM0o5AT1fF_wT3ewJ4PT3CNbo8QfNWSoL95yDZ_2FO-ELVqG0RJ2CfcStwRyWlLrb6zbBgSVIK6MaKumHpkjL6gX5T3GFiH9vJLaEI8b_pJcOw3XtimlOWDHikKwds2a3JafoWACfaGGT1d4Hdp2OAxh3P2oJn46ofpzFX7mXaQAPmZyKJHIJdVb4kGNpGXSn-X95S51JFC2NYqM=w2284-h1306-no"
     },{
         "title": "Encontro",
         "subtitle": "Node.js, React.js, MySQL/Sequelize, MongoDB, Express.js",
