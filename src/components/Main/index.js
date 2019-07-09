@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import MediaQuery from "react-responsive";
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import PortfolioItem from "../PortfolioItem/index.js";
 import projects from "./projects.json";
@@ -22,35 +23,101 @@ class Main extends Component {
     );
 
     return (
-      <Container>
-        <Row>
-          <Col xs="3">
-            <Card className="bioCard">
-              <CardImg className="bioImage" src={this.state.bioImage}/>
-              <CardBody className="bioBody">
-                <CardTitle className="bioTitle">Robert Flanagan</CardTitle>
-                <CardSubtitle className="bioContent">Brooklyn, NY</CardSubtitle>
-                <CardText className="bioText">
-                  <p className="bio">
-                    Full-stack developer.
-                  </p>
-                  <p className="skills">
-                    Skills: JavaScript (jQuery, Node.js, Express.js, React.js), HTML + CSS, Bootstrap, Handlebars, MySQL, MongoDB, Firebase
-                  </p>
-                  <div className="bioLinksArea">
-                    <p><a className="socialLink" href={this.state.personalGithub}>GitHub </a><img className="socialIcon" src={this.state.githubImg} alt="GitHub icon"/></p>
-                    <p><a className="socialLink" href={this.state.linkedIn}>LinkedIn </a><img className="socialIcon" src={this.state.linkedinImg} alt="LinkedIn icon"/></p>
-                    <p><a className="socialLink" href={this.state.resume}>Resume</a></p>
-                  </div>
-                </CardText>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col className="portfolioArea">
-            {projectCards}
-          </Col>
-        </Row>
-      </Container>
+      <div>
+        <MediaQuery minDeviceWidth={1200}>
+          <Container>
+            <Row>
+              <Col xs="3">
+                <Card className="bioCard">
+                  <CardImg className="bioImage" src={this.state.bioImage}/>
+                  <CardBody className="bioBody">
+                    <CardTitle className="bioTitle">Robert Flanagan</CardTitle>
+                    <CardSubtitle className="bioContent">Brooklyn, NY</CardSubtitle>
+                    <CardText className="bioText">
+                      <p className="bio">
+                        Full-stack developer.
+                      </p>
+                      <p className="skills">
+                        Skills: JavaScript (jQuery, Node.js, Express.js, React.js), HTML + CSS, Bootstrap, Handlebars, MySQL, MongoDB, Firebase
+                      </p>
+                      <div className="bioLinksArea">
+                        <p><a className="socialLink" href={this.state.personalGithub}>GitHub </a><img className="socialIcon" src={this.state.githubImg} alt="GitHub icon"/></p>
+                        <p><a className="socialLink" href={this.state.linkedIn}>LinkedIn </a><img className="socialIcon" src={this.state.linkedinImg} alt="LinkedIn icon"/></p>
+                        <p><a className="socialLink" href={this.state.resume}>Resume</a></p>
+                      </div>
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col xs={9} className="portfolioArea">
+                {projectCards}
+              </Col>
+            </Row>
+          </Container>
+        </MediaQuery>
+        <MediaQuery minDeviceWidth={768} maxDeviceWidth={1199}>
+          <Container>
+            <Row>
+              <Col>
+                <Card className="bioCard">
+                  <CardImg className="bioImage" src={this.state.bioImage}/>
+                  <CardBody className="bioBody">
+                    <CardTitle className="bioTitle">Robert Flanagan</CardTitle>
+                    <CardSubtitle className="bioContent">Brooklyn, NY</CardSubtitle>
+                    <CardText className="bioText">
+                      <p className="bio">
+                        Full-stack developer.
+                      </p>
+                      <p className="skills">
+                        Skills: JavaScript (jQuery, Node.js, Express.js, React.js), HTML + CSS, Bootstrap, Handlebars, MySQL, MongoDB, Firebase
+                      </p>
+                      <div className="bioLinksArea">
+                        <p><a className="socialLink" href={this.state.personalGithub}>GitHub </a><img className="socialIcon" src={this.state.githubImg} alt="GitHub icon"/></p>
+                        <p><a className="socialLink" href={this.state.linkedIn}>LinkedIn </a><img className="socialIcon" src={this.state.linkedinImg} alt="LinkedIn icon"/></p>
+                        <p><a className="socialLink" href={this.state.resume}>Resume</a></p>
+                      </div>
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col className="portfolioArea">
+                {projectCards}
+              </Col>
+            </Row>
+          </Container>
+        </MediaQuery>
+        <MediaQuery maxDeviceWidth={767}>
+          <Container>
+            <Row>
+              <Col>
+                <Card className="bioCard">
+                  <CardImg className="bioImage" src={this.state.bioImage}/>
+                  <CardBody className="bioBody">
+                    <CardTitle className="bioTitle">Robert Flanagan</CardTitle>
+                    <CardSubtitle className="bioContent">Brooklyn, NY</CardSubtitle>
+                    <CardText className="bioText">
+                      <p className="bio">
+                        Full-stack developer.
+                      </p>
+                      <p className="skills">
+                        Skills: JavaScript (jQuery, Node.js, Express.js, React.js), HTML + CSS, Bootstrap, Handlebars, MySQL, MongoDB, Firebase
+                      </p>
+                      <div className="bioLinksArea">
+                        <div><a className="socialLink" href={this.state.personalGithub}>GitHub </a><img className="socialIcon" src={this.state.githubImg} alt="GitHub icon"/></div>
+                        <div><a className="socialLink" href={this.state.linkedIn}>LinkedIn </a><img className="socialIcon" src={this.state.linkedinImg} alt="LinkedIn icon"/></div>
+                        <div><a className="socialLink" href={this.state.resume}>Resume</a></div>
+                      </div>
+                    </CardText>
+                  </CardBody>
+                </Card>
+                <div className="portfolioArea">
+                  {projectCards}
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </MediaQuery>
+      </div>
     );
   }
 }

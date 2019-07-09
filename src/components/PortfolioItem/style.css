@@ -1,16 +1,12 @@
 .projectCard {
     margin: 10px 0 10px 0;
     width: 16rem;
-    /* box-shadow: 0 4px 6px 0 #7081A8, 0 4px 6px 0 #7081A8; */
     background-color: #CED2DD;
 }
 
 .projectImageWrapper {
     padding: 20px 10px 5px 10px;
     background-color: #CED2DD;
-}
-
-.projectImage {
 }
 
 .projectBody {
@@ -37,7 +33,6 @@
 .projectLinksArea {
     position: absolute;
     bottom: 0;
-    /* margin-top: 15px; */
 }
 
 .codeLink {
@@ -50,4 +45,22 @@
     color: #203C82;
     font-weight: bolder;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 1200px) {
+    .projectCard {
+        width: 16rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .projectCard {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .projectCard {
+        width: 100%;
+    }
 }
