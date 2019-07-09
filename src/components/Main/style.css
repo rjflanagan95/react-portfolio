@@ -63,6 +63,24 @@
     height: 17px;
 }
 
+.backToTop {
+    background-color: #CED2DD;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
 @media only screen and (min-width: 1200px) {
     .bioCard {
         width: 15rem;
